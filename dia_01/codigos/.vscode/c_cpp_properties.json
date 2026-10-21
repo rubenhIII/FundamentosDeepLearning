@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "defines": [
+        "NDEBUG",
+        "_FORTIFY_SOURCE=2"
+      ],
+      "includePath": [
+        "${workspaceFolder}/src",
+        "/usr/share/R/include"
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "${default}",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
